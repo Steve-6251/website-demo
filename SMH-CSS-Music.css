@@ -1,0 +1,26 @@
+
+body {
+background-color:papayawhip; 
+color:black;
+font-size:32px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1
+{
+font-size:40px;
+text-decoration:underline;
+}
+
+h2
+{
+font-size:32px;
+font-weight:bold;
+font-style:italic;
+}
+
+a:link { color: #0000ff }
+a:visited { color: #0000ff }
+a:hover { color: #ff0000 }
+a:active { color: #ff0000 }
