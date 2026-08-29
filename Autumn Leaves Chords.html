@@ -24,7 +24,22 @@ td, th {
     padding: 8px;              /* Optional: spacing inside cells */
   font-size: x-large;
 }
+td, th {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
 
+/* Make first and last cell borders double width */
+tr td:first-child,
+tr th:first-child {
+    border-left-width: 2px;
+}
+
+tr td:last-child,
+tr th:last-child {
+    border-right-width: 2px;
+}
+    
   </style>
 </head>
 <body>
